@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: virtualization
-    repoURL: https://github.com/RHsyseng/kubevirt-gitops.git
+    path: openshift-virtualization
+    repoURL: https://github.com/adnan-drina/gitops-sandbox.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
