@@ -2,6 +2,14 @@ apiVersion: hco.kubevirt.io/v1beta1
 kind: HyperConverged
 metadata:
   annotations:
+    kubevirt.kubevirt.io/jsonpatch: |-
+      [
+        {
+          "op": "add",
+          "path": "/spec/configuration/developerConfiguration",
+          "value": {"useEmulation": true}
+        }
+      ]
     deployOVS: "false"
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
   labels:
