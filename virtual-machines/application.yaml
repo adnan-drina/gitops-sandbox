@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: datavolumes
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: openshift-virtualization-os-images
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: virtual-machines
+    repoURL: https://github.com/adnan-drina/gitops-sandbox.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=false
