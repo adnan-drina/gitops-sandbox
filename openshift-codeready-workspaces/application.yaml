@@ -16,8 +16,3 @@ spec:
     automated: { }
     syncOptions:
       - CreateNamespace=true
-    ignoreDifferences:
-      - kind: HyperConverged
-        namespace: openshift-cnv
-        jsonPointers:
-          - /spec/version
