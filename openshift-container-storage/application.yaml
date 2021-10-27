@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: openshift-container-storage
+  namespace: openshift-storage
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: openshift-container-storage
+    repoURL: https://github.com/adnan-drina/gitops-sandbox.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: { }
+    syncOptions:
+      - CreateNamespace=true

@@ -19,3 +19,5 @@ nb-configuration.xml
 
 #rendom
 .DS_Store
+
+openshift-container-storage

@@ -16,7 +16,6 @@ spec:
   auth:
     openShiftoAuth: true
     externalIdentityProvider: false
-#    identityProviderURL: ''
     identityProviderRealm: codeready
     identityProviderClientId: codeready-public
   storage:

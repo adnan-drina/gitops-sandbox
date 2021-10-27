@@ -1,0 +1,7 @@
+resources:
+  - application.yaml
+  - checluster.yaml
+  - gitops-rbac.yaml
+  - namespaces.yaml
+  - operatorgroup.yaml
+  - subscription.yaml
