@@ -20,4 +20,6 @@ spec:
     - kind: CheCluster
       namespace: codeready-workspaces
       jsonPointers:
-        - /spec
+        - /spec/auth
+        - /spec/database
+        - /spec/server
