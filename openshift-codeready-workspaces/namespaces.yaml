@@ -6,5 +6,5 @@ metadata:
     openshift.io/description: "A collaborative Kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development."
     openshift.io/display-name: "Red Hat CodeReady Workspaces"
   name: codeready-workspaces
-  labels:
-    argocd.argoproj.io/managed-by: openshift-gitops
+#  labels:
+#    argocd.argoproj.io/managed-by: openshift-gitops
