@@ -20,15 +20,4 @@ spec:
     - kind: CheCluster
       namespace: codeready-workspaces
       jsonPointers:
-        - /spec/auth/identityProviderClientId
-        - /spec/auth/identityProviderImage
-        - /spec/auth/identityProviderRealm
         - /spec/auth/identityProviderURL
-        - /spec/database/chePostgresDb
-        - /spec/database/chePostgresHostName
-        - /spec/database/chePostgresPassword
-        - /spec/database/chePostgresPort
-        - /spec/database/chePostgresUser
-        - /spec/server/cheImageTag
-        - /spec/server/devfileRegistryImage
-        - /spec/server/pluginRegistryImage
