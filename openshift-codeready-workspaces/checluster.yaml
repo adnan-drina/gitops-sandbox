@@ -5,24 +5,18 @@ metadata:
   namespace: codeready-workspaces
 spec:
   server:
-#    cheImageTag: ''
     cheFlavor: codeready
-#    devfileRegistryImage: ''
-#    pluginRegistryImage: ''
     tlsSupport: true
     selfSignedCert: false
   database:
     externalDb: false
     chePostgresHostName: postgres
     chePostgresPort: '5432'
-#    chePostgresUser: ''
-#    chePostgresPassword: ''
     chePostgresDb: dbche
   auth:
     openShiftoAuth: true
-#    identityProviderImage: ''
     externalIdentityProvider: false
-    identityProviderURL: ''
+#    identityProviderURL: ''
     identityProviderRealm: codeready
     identityProviderClientId: codeready-public
   storage:
