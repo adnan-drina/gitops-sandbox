@@ -19,5 +19,5 @@ spec:
   ignoreDifferences:
     - kind: CheCluster
       namespace: codeready-workspaces
-#      jsonPointers:
-#        - /spec/version
+      jsonPointers:
+        - /spec
