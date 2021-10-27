@@ -1,6 +1,7 @@
 resources:
   - application.yaml
   - checluster.yaml
+  - gitops-rbac.waml
   - namespaces.yaml
   - operatorgroup.yaml
   - subscription.yaml
