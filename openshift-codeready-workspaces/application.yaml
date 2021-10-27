@@ -16,3 +16,8 @@ spec:
     automated: { }
     syncOptions:
       - CreateNamespace=true
+  ignoreDifferences:
+    - kind: CheCluster
+      namespace: codeready-workspaces
+#      jsonPointers:
+#        - /spec/version
